@@ -6,8 +6,8 @@ import { FaHandsHelping } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <>
-      <main className="relative flex flex-col min-h-screen bg-white text-black">
+    <div className="bg-white">
+      <main className="relative flex flex-col min-h-screen  text-black">
         <Navbar />
         <section className="flex flex-col w-[500px] text-center m-auto gap-6 mb-16 items-center mt-2 h-full flex-1 ">
           <p className="text-6xl font-extrabold ">WE BUILD TECH FOR FREE </p>
@@ -22,8 +22,8 @@ export default function Home() {
         </div>
       </main>
 
-      <section className="w-1/2 flex items-center font-sans m-auto h-screen ">
-        <p className="font-extrabold tracking-widest text-6xl">
+      <section className=" bg-lightWhite flex items-center justify-center font-sans h-screen ">
+        <p className=" bg-white px-36 py-20 border-custom  font-extrabold tracking-widest text-6xl shadow-sm w-[70%]">
           WE BELIEVE NOT EVERY SOUL FINDS SUPPORTING HANDS WE REALIZE AT TIMES,
           WE MUST UPHOLD ANOTHER IN TURN, THEY'LL STAND BY US ONE DAY...
         </p>
@@ -70,6 +70,6 @@ export default function Home() {
       </section>
 
       <Footer />
-    </>
+    </div>
   );
 }
